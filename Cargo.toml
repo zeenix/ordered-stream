@@ -1,12 +1,12 @@
 [package]
-name = "ordered-stream"
+name = "ordered-streams"
 version = "0.1.1"
-authors = ["Daniel De Graaf <code@danieldg.net>"]
+authors = ["Daniel De Graaf <code@danieldg.net>", "Zeeshan Ali Khan <zeeshanak@gnome.org>"]
 license = "MIT OR Apache-2.0"
 edition = "2018"
 
 description = "Streams that are ordered relative to external events"
-repository = "https://github.com/danieldg/ordered-stream"
+repository = "https://github.com/zeenix/ordered-streams"
 keywords = ["async", "stream", "timestamp"]
 
 [dependencies]

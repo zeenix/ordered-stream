@@ -17,10 +17,10 @@
 
  ```rust
  use futures_core::Stream;
- use ordered_stream::FromStream;
- use ordered_stream::JoinMultiple;
- use ordered_stream::OrderedStream;
- use ordered_stream::OrderedStreamExt;
+ use ordered_streams::FromStream;
+ use ordered_streams::JoinMultiple;
+ use ordered_streams::OrderedStream;
+ use ordered_streams::OrderedStreamExt;
  use std::pin::Pin;
  use std::time::SystemTime;
 
@@ -53,4 +53,9 @@
  }
  ```
 
+## Relationship with `ordered-stream` crate
+
+This project is a fork of [`ordered-stream`], which was not well-maintained.
+
 [`Stream`]: https://docs.rs/futures/latest/futures/stream/trait.Stream.html
+[`ordered-stream`]: https://crates.io/crates/ordered-stream
